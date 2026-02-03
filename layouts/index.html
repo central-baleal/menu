@@ -2,7 +2,7 @@
     <div class="sticky-header-wrapper">
         <header>
             <div class="container">
-                <img src="/images/central-logo.png" alt="Central Food & Drinks - Restaurant and Bar" class="header-logo">
+                <img src="{{ "/images/central-logo.png" | relURL }}" alt="Central Food & Drinks - Restaurant and Bar" class="header-logo">
                 <div class="lang-switcher">
                     {{ range .Site.Languages }}
                         <a href="{{ .Lang | relURL }}" class="lang-btn{{ if eq $.Site.Language.Lang .Lang }} active{{ end }}">
