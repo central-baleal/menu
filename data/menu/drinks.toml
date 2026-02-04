@@ -88,7 +88,7 @@ name = "Mojito"
 # Vinhos / Wines
 [[wines]]
 id = "wine_glass"
-price = "5,50 €"
+price = "3,50 €"
 
 [wines.name]
 pt = "Copo de Vinho"
